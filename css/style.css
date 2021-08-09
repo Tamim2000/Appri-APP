@@ -171,7 +171,7 @@ header.sticky {
 .slider{position: relative;
     min-height: 1195px;
     background-repeat: no-repeat;
-    background-position:center center;
+    background-position:top left;
 }
 .slider .text-content{
     padding-top:390px ;
