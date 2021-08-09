@@ -1,0 +1,362 @@
+/* Laptops device */
+/* --------------- */
+@media(min-width: 1200px) and (max-width: 1500px){
+    .img-slider {
+        width: 100%;
+    }
+    .slider-img .phn-shape2 {
+        bottom: 7%;
+        right: -9%;
+    }
+    .slider .shape02 {
+        bottom: 4%;
+        right: 43%;
+    }
+    .feature {
+        position: relative;
+        padding: 30px 0px;
+    }
+    .price-box .btn {
+        font-size: 12px;
+    }
+}
+/* Normal desktop device */
+/* --------------------------- */
+@media (min-width:992px) and (max-width:1199px){
+    .main-menu ul li {
+        margin: 0px 13px;
+    } 
+    .toggle-button{
+        display: none;
+    }
+    .slider {
+        min-height: 1040px;
+        background-position: center;
+    }
+    .slider .text-content {
+        padding-top: 240px;
+    }
+    .slider .shape01 {
+        top: 12%;
+    }
+    .img-slider {
+        width: 333px;
+        margin-top: -40px;
+    }
+    .slider-img .phn-shape2 {
+        bottom: 8%;
+        right: 5%;
+        width: 62%;
+    }
+    .slider-img .phn-shape1 {
+        top: 6%;
+        width: 60%;
+    }
+    .fact {
+        padding: 0px 0px;
+    }
+    .video-image {
+        background-position: center 50%;
+        width: 80%;
+        margin: auto;
+    }
+    .feature {
+        padding-top: 110px;
+    }
+    .work-process-content {
+        margin-top: 50px;
+    }
+    .price-box {
+      padding: 30px 15px;
+    }
+    .faqs {
+        padding-top: 90px;
+    }
+    .news-text {
+        padding: 10px;
+    }
+    .subs-area h2{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-content {
+        padding: 15px 0px;
+    }
+   
+}
+/* tablet or medium device */
+/* ------------------------------- */
+@media (max-width:992px){
+    nav{
+        display: none;
+    }
+    .toggle-button .close-btn{
+        display: none;
+    }
+    .toggle-button .open-btn{
+        display: block;
+    }
+    nav {
+        padding: 20px;
+        position: absolute;
+        width:100%;
+        top: 114%;
+        right: 0;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.472);
+        background: #fff;
+    }
+    .main-menu ul li {
+        display: block;
+        text-align:center;
+    }
+    .main-menu li a {
+        border-bottom: 1px solid rgba(128, 128, 128, 0.294);
+        color: rgb(93, 93, 93);
+        font-size: 20px;
+    }
+    .main-menu ul li ul.sub-menu{
+        right: 200px;
+        top: 100%;
+    }
+}
+    
+@media (min-width:768px) and (max-width:991px){
+    .slider .text-content {
+        padding-top: 200px;
+        
+    } 
+    .img-slider {
+        width: 100%;
+    }
+    .slider .text-content h1 {
+        font-size: 40px;
+    }
+    .slider .shape01 {
+   display: none;
+    }
+    .slider-img .phn-shape2 {
+        bottom: 8%;
+        right: -15%;
+        width: 70%;
+    }
+    .slider-img .phn-shape1 {
+        top: 14%;
+        left: -28%;
+        width: 70%;
+    }
+    .btn {
+     padding: 5px 20px;
+    }
+    .slider {
+        min-height:auto;
+        background-position: center;
+        background-size: cover;
+    }
+    .slider .shape02{
+        display: none;
+    }
+    .side-border1 {
+        top: 13px;
+    }
+    .side-border2 {
+        top: 13px;
+    }
+    .fact .counter-box h2 {
+        font-size: 36px;
+    }
+    .feature-item.text-center {
+        padding: 0px 25px;
+    }
+    .video-image {
+        min-height: 290px;
+        background-position: -100px -290px;
+    }
+    .work-process .text h2 {
+        margin-top: 30px;
+        font-size: 23px;
+    }
+    .work-process .text p {
+        font-size: 14px;
+    }
+    .bg-overlay {
+        background-size: cover;
+    }
+    .priching-area {
+        margin-top: -150px;
+    }
+    .testi-text p {
+        font-size: 18px;
+    }
+    .faqs {
+        padding-top: 90px;
+        padding-bottom: 220px;;
+        background-size: cover;
+    }
+    .input-area .btn {
+        bottom: 10px;
+        right: 11px;
+        padding: 20px 35px;
+    }
+
+
+
+}
+
+/* small or mobile device 320px */
+/* ------------------------------- */
+@media (max-width:776px) {
+    .header-area .button {
+        display: none;
+    }
+    nav{
+    top: 134%;
+    }
+    .main-menu ul li ul.sub-menu {
+        left: -13%;
+    }
+    .main-menu ul li ul.sub-menu li ul.sub-menu {
+        left: -8%;
+        top: 50px;
+    }
+    .header-area .logo{
+        display: none;
+    }
+    .slider .text-content {
+        padding-top: 120px;
+    }
+    .slider .text-content h1 {
+        font-size: 30px;
+    }
+    .slider .text-content p {
+        margin: 25px 0px;
+        font-size: 16px;
+    }
+    .slider .shape01 {
+        display: none;
+    }
+    .slider .btn{
+        padding: 10px 50px; margin-bottom: 41px;
+    }
+    .slider {
+        padding-bottom: 95px;
+    }
+    .slider-btn .btn2 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .transparent-header {
+        padding: 5px 10px;
+    }
+    .sticky .transparent-header {
+        padding: 0px 10px;
+    }
+    header.sticky {
+        height: 55px;
+    }
+    .toggle-button .open-btn {
+        font-size: 40px;
+    }
+    .toggle-button .close-btn {
+        font-size: 40px;
+    }
+    .slider {
+        padding-bottom: 120px;
+        min-height:0px;
+         background-size: cover;
+    }
+    .slider .slider-img {
+        display: none;
+    }
+    .slider .shape02 {
+       display: none;
+    }
+    .side-border2{
+        display: none;
+    }
+    .side-border1{
+        display: none;
+    }
+    .fact .row{
+        width: 90%;
+    }
+    .fact {
+        padding: 20px 0px;
+    }
+    .section-title h2 {
+        font-size: 36px;
+        font-weight: normal;
+    }
+    .section-title p {
+        font-size: 16px; 
+    }
+    .play-btn a {
+        width: 100px;
+        height: 100px;
+    }
+    .video-image {
+        min-height: 225px;
+        background-position: center bottom;
+        background-size: cover;
+    }  
+    .work-process .text h2 {
+        font-size: 25px;
+        font-weight: revert;
+    }
+    .price-box a.btn {
+        padding: 15PX 10PX;
+        font-size: 14px;
+    }
+    .work-process .text .btn {
+        font-size: 14px;
+        font-weight: 600;
+        padding: 15px 30px;
+    }
+    .testi-text p {
+        font-size: 16px;
+    }
+    .testi-img .slick-current img {
+        width: 110px !important;
+    }
+    .testi-img {
+      display: none;
+    }
+    .faqs {
+        background-position: center;
+        padding-top: 50px;
+        padding-bottom: 180px;
+        background-size: cover;
+    }
+    .brand.company-brand{
+        display: none;
+    } 
+    .news-text {
+        padding: 15px;
+    } 
+    .subs-area h2 {
+        font-size: 22px;
+    }
+    .input-area .btn {
+        position: unset;
+        border: none;
+        padding: 5px 10px;
+    } 
+    .input-area input {
+        padding: 8px 22px;
+        margin-bottom: 10px;
+    }
+    .footer-content .subs-area{
+        padding: 30px 15px;
+        border-radius: 15px;
+    }
+    .brand-area h2 {
+    font-size: 36px;
+    }
+    footer .copy-text span {
+        font-size: 8px;
+         padding: 22px 0px;
+    }
+    .footer-content {
+        padding: 40px 0px;
+    }
+
+}
